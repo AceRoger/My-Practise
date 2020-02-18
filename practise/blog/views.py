@@ -37,6 +37,8 @@ def get_data(request):
 
     try:
         count_incr.delay()
+        # Demo Change for branch demo
+        a = 9 + 9
     except Exception, e:
         print "Exception = ",e
     return
